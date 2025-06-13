@@ -1,0 +1,17 @@
+# GitHub configuration
+github_token = "ghp_your_github_token_here"
+github_repository_url = "ssh://git@github.com/bwoogmy/kbot-flux-infra.git"
+github_repository_name = "kbot-flux-infra"
+create_github_repository = false
+
+# Cluster configuration
+cluster_name = "flux-demo"
+git_branch = "main"
+
+# Application configuration
+app_namespace = "kbot"
+kbot_repository_url = "https://github.com/bwoogmy/kbot.git"
+kbot_git_branch = "develop"
+kbot_image_repository = "ghcr.io/bwoogmy/kbot"
+helm_chart_path = "helm"
+enable_image_monitoring = false

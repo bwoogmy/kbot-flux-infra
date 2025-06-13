@@ -1,4 +1,19 @@
+# Terraform
+terraform.tfvars
+terraform.tfstate*
 .terraform/
-*.tfstate
-*.tfstate.*
 .terraform.lock.hcl
+
+# SSH Keys and Secrets
+*.pem
+*.key
+*-config
+flux-gitops*
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+kbot-helmrelease.yaml
+kbot-source.yaml
